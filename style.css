@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+}
+#navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+   
+    
+}
+
+#logo{
+    margin: 5px 20px;
+}
+
+#logo img{
+    margin: 2px 4px;
+    height: 50px;
+    width:50px;
+}
+
+#navbar::before{
+   
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+#navbar ul{
+    display: flex;
+    flex-shrink: 1;
+    
+}
+
+#navbar ul li{
+    
+    list-style: none;
+    font-size: 1.3rem;
+    
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 1px 80px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+}
+
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+
+}
+
+/* Home styling */
+
+#home{
+    display: flex;
+    /* padding: 0px 0px; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    }
+
+#home::before{
+    content: "";
+    z-index: -1;
+    background: url('./assets/pizza.jfif') no-repeat center center/cover;
+    position: absolute;
+    height: 590px;
+    
+    width: 1200px;
+    opacity: 8;
+    
+}
+
+#home h1{
+    flex-shrink: 1;
+    padding: 1px 10px;
+    color: white;
+    font-size: 3.2rem;
+    font-family: 'Bree Serif', serif;
+}
+#home p{
+    flex-shrink: 1;
+    padding: 1px 10px;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.h-primary{
+    padding: 10px;
+    text-align: center;
+}
+
+.btn{
+    padding: 2px 2px;
+    background-color: white;
+    font-size: 1.3rem;
+    color: red;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.services-container{
+    
+
+width: 1200px;
+margin: 70px 0px;
+height: 200px;
+
+}
+
+#services{
+    display: flex;
+    margin: 0px 0px;
+    width: 1200px;
+    text-align: center;
+    
+
+}
+
+#services .box img{
+    height: 100px;
+    width: 100px;
+}
+
+.box{
+    border: 2px solid black;
+    padding: 30px 140px;
+    width: 1200px;
+}
+
+#services::before{
+    content: "";
+    z-index: -1;
+    background: url('./assets/pizza.jfif') no-repeat center center/cover;
+    position: absolute;
+    height: 270px;
+    
+    width: 1200px;
+    opacity: 8;
+    
+}
+
+
+ #footer ul{
+    margin: 135px 0px;
+    display: flex;
+
+    height: 40px;
+    border: 2px solid black;
+    
+    
+  
+} 
+
+
+
+ #footer ul li a{
+    
+    list-style: none;
+    font-size: 1.3rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
