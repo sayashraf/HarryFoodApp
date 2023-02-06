@@ -156,28 +156,38 @@ height: 200px;
 }
 
 
- #footer ul{
+ #footer{
     margin: 135px 0px;
     display: flex;
-
     height: 40px;
     border: 2px solid black;
+    justify-content: center;
     
     
   
 } 
 
-
-
- #footer ul li a{
+#footer ul{
+    display: flex;
+     justify-content: center;
+    
+}
+#footer li{
     
     list-style: none;
-    font-size: 1.3rem;
+    
+    
+} 
+#footer ul li a{
+    
+    
+    display: block; 
     text-decoration: none;
-    justify-content: center;
-    align-items: center;
+    text-align: right;
+
    
-}
+   
+} 
 
 
 
