@@ -2,10 +2,10 @@
     padding: 0;
 }
 #navbar{
-    position: relative;
+    position: sticky;
     display: flex;
     align-items: center;
-    border: 2px solid black;
+    border: 1px solid black;
    
     
 }
@@ -24,16 +24,17 @@
    
     content: "";
     position: absolute;
-    background-color: white;
-    height: 70%;
+    background-color: black;
+    height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: 0.1;
+    opacity: 0.4;
 }
 
 #navbar ul{
     display: flex;
     flex-shrink: 1;
+    
     
 }
 
@@ -114,7 +115,7 @@
     cursor: pointer;
 }
 
-.services-container{
+#services-container{
     
 
 width: 1200px;
@@ -138,17 +139,20 @@ height: 200px;
 }
 
 .box{
-    border: 2px solid black;
+    border: 1px solid white;
     padding: 30px 140px;
+    margin: 5px 5px;
+    border-radius: 10px;
     width: 1200px;
 }
 
 #services::before{
     content: "";
     z-index: -1;
-    background: url('./assets/pizza.jfif') no-repeat center center/cover;
+    /* url('./assets/pizza.jfif') no-repeat; */
     position: absolute;
-    height: 270px;
+    background-color: cadetblue;
+    height: 400px;
     
     width: 1200px;
     opacity: 8;
@@ -157,10 +161,10 @@ height: 200px;
 
 
  #footer{
-    margin: 135px 0px;
+    margin: 195px 0px;
     display: flex;
     height: 40px;
-    border: 2px solid black;
+    border: 1px solid pink;
     justify-content: center;
     
     
